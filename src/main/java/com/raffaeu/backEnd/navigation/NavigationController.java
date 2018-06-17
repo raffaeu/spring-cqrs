@@ -1,7 +1,7 @@
-package com.ubs.backEnd.navigation;
+package com.raffaeu.backEnd.navigation;
 
 
-import com.ubs.backEnd.orm.entities.NavigationEntity;
+import com.raffaeu.backEnd.orm.entities.NavigationEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

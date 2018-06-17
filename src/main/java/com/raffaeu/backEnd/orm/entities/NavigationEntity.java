@@ -1,4 +1,4 @@
-package com.ubs.backEnd.orm.entities;
+package com.raffaeu.backEnd.orm.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

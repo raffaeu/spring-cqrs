@@ -1,4 +1,4 @@
-package com.ubs.backEnd.orm;
+package com.raffaeu.backEnd.orm;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AvailableSettings;
@@ -37,7 +37,7 @@ public class PersistenceConfig {
     public LocalSessionFactoryBean getSessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(getDataSource());
-        sessionFactory.setPackagesToScan(new String[] { "com.ubs.backEnd.orm.entities" });
+        sessionFactory.setPackagesToScan(new String[] { "com.raffaeu.backEnd.orm.entities" });
         sessionFactory.setHibernateProperties(getHibernateProperties());
         return sessionFactory;
     }

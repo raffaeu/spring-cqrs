@@ -1,4 +1,4 @@
-package com.ubs.backEnd;
+package com.raffaeu.backEnd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Bootstrap class for the back-end
  */
 @SpringBootApplication(scanBasePackages = {
-        "com.ubs.backEnd",
-        "com.ubs.backEnd.navigation"
+        "com.raffaeu.backEnd",
+        "com.raffaeu.backEnd.navigation"
 })
 public class Application {
 
